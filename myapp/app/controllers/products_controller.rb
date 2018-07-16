@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   # Tasks:
+  #   0. Create top nav menu
   #   1. Only allow signed in users to use products pages
   #   2. When creating new products - assign them to current user
   #   3. Only allow users to edit their own products
@@ -7,6 +8,8 @@ class ProductsController < ApplicationController
   #
   # GET /products
   # GET /products.xml
+  before_filter :require_login
+
   def index
     @products = Product.all
 
@@ -47,6 +50,7 @@ class ProductsController < ApplicationController
   # POST /products.xml
   def create
     @product = Product.new(params[:product])
+    @product.user = current_user
 
     respond_to do |format|
       if @product.save
@@ -62,7 +66,7 @@ class ProductsController < ApplicationController
   # PUT /products/1
   # PUT /products/1.xml
   def update
-    @product = Product.find(params[:id])
+    @product = Product.first(conditions: ['id = ? and user_id = ?', id: params[:id], user_id: current_user.id])
 
     respond_to do |format|
       if @product.update_attributes(params[:product])
@@ -87,3 +91,26 @@ class ProductsController < ApplicationController
     end
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

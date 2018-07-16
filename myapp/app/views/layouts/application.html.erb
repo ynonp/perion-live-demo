@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Hello Rails</title></head>
+  <head>
+    <title>Hello Rails</title>
+    <link rel='stylesheet' href='/style.css' />
+  </head>
+
   <body>
     <div>
+  <nav>
+    <ul>
+      <li><%= link_to 'home', homepage_path %></li>
+      <li><%= link_to 'products', products_path %></li>
+    </ul>
+  </nav>
       <% if signed_in? %>
         <p>Welcome <%= current_user.name %></p>
       <% end %>

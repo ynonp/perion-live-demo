@@ -4,8 +4,15 @@
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
+  rescue_from AccessDenied, with: :redirect_to_signin
 
   helper_method :signed_in?, :current_user
+
+  private
+
+  def redirect_to_signin
+    redirect_to new_session_path, flash: { message: 'please sign in' }
+  end
 
   def sign_in(user)
     session[:uid] = user
@@ -27,7 +34,30 @@ class ApplicationController < ActionController::Base
     !anonymous?
   end
   
+  def require_login
+    raise AccessDenied unless signed_in?
+  end
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
