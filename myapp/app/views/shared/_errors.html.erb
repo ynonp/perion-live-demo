@@ -1,0 +1,8 @@
+<% if item.errors.size > 0 %>
+  <h2>Form was not subitted due to errors</h2>
+  <ul class='errors'>
+    <% item.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+<% end %>

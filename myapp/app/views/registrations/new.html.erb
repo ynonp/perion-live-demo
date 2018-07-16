@@ -3,9 +3,8 @@ http://localhost:3000/registration/new
 <p>Find me in app/views/registrations/new.html.erb</p>
 
 <% form_for(@user, url: registration_path) do |form| %>
-  <ul class='errors'>
-    <li>...</li>
-  </ul>
+  <%= render partial: 'shared/errors', locals: { item: @user } %>
+
   <div>
     <%= form.label :name %>
     <%= form.text_field :name %>
