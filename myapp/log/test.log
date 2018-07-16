@@ -1,0 +1,176 @@
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:47:13', '2018-07-15 08:47:13')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:47:13', '2018-07-15 08:47:13')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:47:37', '2018-07-15 08:47:37')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:47:37', '2018-07-15 08:47:37')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mDROP TABLE "demo"[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE "demo" ("val" integer) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "password_hash" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:48:08', '2018-07-15 08:48:08')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:48:08', '2018-07-15 08:48:08')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20180715083233)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("demo")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:49:40', '2018-07-15 08:49:40')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:49:40', '2018-07-15 08:49:40')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:53:19', '2018-07-15 08:53:19')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:53:19', '2018-07-15 08:53:19')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:57:35', '2018-07-15 08:57:35')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:57:35', '2018-07-15 08:57:35')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:57:48', '2018-07-15 08:57:48')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Create (0.1ms)[0m   [0mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 08:57:48', '2018-07-15 08:57:48')[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 09:49:20', '2018-07-15 09:49:20')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', 'e9ffcde06125808f8b73088af6cb52b47e8cf51bdd0599d321359f32d15e144e', '2018-07-15 09:49:20', '2018-07-15 09:49:20')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$9Ih11.GM4fK0QinzaN6Fh..Cd76dNM6doVSKZVbFQA5/v9o6nD/NO', '2018-07-15 10:13:35', '2018-07-15 10:13:35')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$Kwd8s6fTN6SEm7kKVHRkxOrU8wu4TJerTzXAs57ZYqVF4taxcCM4O', '2018-07-15 10:13:35', '2018-07-15 10:13:35')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$XhNeXXfQcm5/r9vwS1ssAu9.bLr/q9C2uMx7O4GJKz8tDJapA4Q8i', '2018-07-15 10:14:16', '2018-07-15 10:14:16')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$m7SlIDbnhH6BnPoTmpAxA.Hzj4n3DHjg9VauCPiu61PFTpK61kEPu', '2018-07-15 10:14:16', '2018-07-15 10:14:16')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$XIddv50wlQ63h/PHtKEyI.T/GOlBqpdkrXrYaHcOAwmVoHk.Gxuye', '2018-07-15 10:49:42', '2018-07-15 10:49:42')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$6Kg4FZUBPvCbwzNbMf0.uuQcqG49zZLOpMddYJMR3vuzydLOUB0KG', '2018-07-15 10:49:42', '2018-07-15 10:49:42')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:49:43) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$Zxa2ScopSOklX0KOeF7ZNul/QIZGRK54a9CyKfe14PWnu09Z6RbPO', '2018-07-15 10:50:02', '2018-07-15 10:50:02')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$MfCzs5/4UjSwtNjT0tnsHOSC8.SMQ7R1MXmNLqK8g5AqsIu1OrNru', '2018-07-15 10:50:02', '2018-07-15 10:50:02')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:03) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:11) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:12) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:14) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$XDL1QGoIH7tQ8kzbMic54OXbn3Ox/slrHFTtowju3Ju07q.Xun1NG', '2018-07-15 10:50:23', '2018-07-15 10:50:23')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$LyyGDG6z13MR4IN4O6ahR.eVe0sjGOFqejq876MRWOdiEaTsWXn0W', '2018-07-15 10:50:23', '2018-07-15 10:50:23')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:24) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$J9XLq4hQt0G2lqq3IkXjGe6JCNulajkQ8Q0XStUN27exKOfqVLszG', '2018-07-15 10:50:29', '2018-07-15 10:50:29')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$30PLlgm8FLmenLBiuwHMTO18Np5Fcl8cyi7yIqbGSks/2TD4GL9Eq', '2018-07-15 10:50:29', '2018-07-15 10:50:29')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:31) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$7LlC9.FXCi98cTnWYrvfFOeuHXWlKr25cyKZNxryqNuCL3pM0YEZq', '2018-07-15 10:50:47', '2018-07-15 10:50:47')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$9mAdi4bUqlnkhQlb6tnKN.aug5s97wJckBhWg3RqiMDNucc43eqCu', '2018-07-15 10:50:47', '2018-07-15 10:50:47')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:50:49) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$hCdSvr45MKdWXmxbb8rKgO.Baaa4yejaKH2ARqoXVwu2r1FIWzlV6', '2018-07-15 10:50:59', '2018-07-15 10:50:59')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$fz8bzt3cfv/z/3ehB.lhy.VQheyS1H3t1CEZszPB57TLpuVpbLSx6', '2018-07-15 10:51:00', '2018-07-15 10:51:00')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:51:01) [GET]
+Rendering home/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$j9r3NYJDFjXPhih.Wo9FtedKRX2siwhY3RyWEMafxruUQBT6W1.4S', '2018-07-15 10:51:10', '2018-07-15 10:51:10')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$QC8zkFKIZEhlgmy1yxCzK.etORXS3UhVAQQkETipzZqJUpGpebU/G', '2018-07-15 10:51:10', '2018-07-15 10:51:10')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:51:12) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$nFCZFeU6OY.V3inNPB78hut7PnQFydBhXPS61ggj1gPQ57vbOxfnK', '2018-07-15 10:53:09', '2018-07-15 10:53:09')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$6Uy.qTrAf7EEbvSYUnuDJ.t21bulP2n3L.qqOUBqm88A4.2xbz6si', '2018-07-15 10:53:09', '2018-07-15 10:53:09')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" ORDER BY users.id DESC LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('foo', '$2a$10$M60s0nH8UQsgh5ua53o.T.uK4m4fEkkS7MuB8PSlXtCnzCSORrY3a', '2018-07-15 10:53:11', '2018-07-15 10:53:11')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2018-07-15 13:53:11) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering home/index
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/]

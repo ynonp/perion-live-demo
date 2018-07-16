@@ -1,0 +1,16 @@
+Shared Code Between Controllers - Thin Controller, fat models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Security Filters: <inheritance> ApplicationController
+  - is user signed in?
+  - can user access specific route?
+  - CSRF protection
+
+2. Parsers
+  - ApplicationController
+
+3. Logic (app/lib, lib or wherever)
+  - logic and action classes
+
+4. Model Logic
+

@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: ynon
+  password_hash: akjsho8yiaushfau
+
+two:
+  name: admin
+  password_hash: MyString
