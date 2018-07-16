@@ -1,0 +1,19 @@
+<h1>Sessions#new</h1>
+<% form_for(@user, url: session_path) do |form| %>
+
+  <% if defined?(:errormsg) %>
+    <p class='error'><%= @errormsg %></p>
+  <% end %>
+
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </div>
+
+  <%= form.submit :create %>
+<% end %>

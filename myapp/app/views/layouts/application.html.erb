@@ -2,6 +2,12 @@
 <html>
   <head><title>Hello Rails</title></head>
   <body>
+    <div>
+      <% if signed_in? %>
+        <p>Welcome <%= current_user.name %></p>
+      <% end %>
+        <%= login_logout_link %>
+    </div>
     <%= yield %>
   </body>
 </html>

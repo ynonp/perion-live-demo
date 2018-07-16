@@ -2273,3 +2273,1538 @@ ActionController::RoutingError (No route matches "/service-worker.js" with {:met
   /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 Rendering rescues/layout (not_found)
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2018-07-16 11:29:18) [GET]
+Rendering template within layouts/application
+Rendering registrations/new
+Rendered shared/_errors (0.1ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/registration/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:29:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/default-apple-touch-icon.png" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2018-07-16 11:34:04) [GET]
+Rendering template within layouts/application
+Rendering registrations/new
+Rendered shared/_errors (0.1ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/registration/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:34:13) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:34:14) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:34:22) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:34:30) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"foo", "password"=>"bar"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'foo') LIMIT 1[0m
+
+NoMethodError (undefined method `val' for BCrypt::Password:Class):
+  app/models/user.rb:17:in `check_password'
+  app/controllers/sessions_controller.rb:11:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (24.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:34:31) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:34:59) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:35:00) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:35:05) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"foo", "password"=>"asdasdasd"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'foo') LIMIT 1[0m
+
+NoMethodError (undefined method `val' for BCrypt::Password:Class):
+  app/models/user.rb:17:in `check_password'
+  app/controllers/sessions_controller.rb:11:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:35:05) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:35:40) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:35:41) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:35:45) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"asdjasldkj"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+
+NoMethodError (undefined method `check_password' for nil:NilClass):
+  app/controllers/sessions_controller.rb:11:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (9.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:35:46) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:36:21) [GET]
+
+ActionController::MethodNotAllowed (Only post and delete requests are allowed.):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (3.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:36:22) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:36:22) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:36:23) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:36:24) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/sessions/new.html.erb:
+1: <h1>Sessions#new</h1>
+2: <% form_for(@user, url: session_path) do |form| %>
+3: 
+4:   <div>
+5:     <%= form.label :name %>
+
+    app/views/sessions/new.html.erb:2
+    app/controllers/sessions_controller.rb:15:in `create'
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (23.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:37:45) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:37:46) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:37:46) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 101ms (View: 4, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:37:47) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:37:48) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 79ms (View: 3, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:37:49) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 94ms (View: 6, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:37:49) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:37:50) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 77ms (View: 3, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:37:50) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 79ms (View: 4, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:37:51) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:37:53) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"hdjsfjds", "password"=>"letmein"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'hdjsfjds') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 90ms (View: 5, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:37:54) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:39:32) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:39:33) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:39:34) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynonp", "password"=>"letmein"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynonp') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 80ms (View: 3, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:39:35) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:39:38) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"foobar", "password"=>"letmein"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'foobar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 84ms (View: 4, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:39:39) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:39:50) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+
+BCrypt::Errors::InvalidHash (invalid hash):
+  bcrypt (3.1.12) lib/bcrypt/password.rb:60:in `initialize'
+  app/models/user.rb:17:in `new'
+  app/models/user.rb:17:in `check_password'
+  app/controllers/sessions_controller.rb:10:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (4.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:39:50) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:42:44) [GET]
+
+ActionController::RoutingError (No route matches "/sessions/new" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:42:45) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:42:48) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:42:49) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:42:50) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demop"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+
+RuntimeError (2a97516c354b68848cdbd8f54a226a0a55b21ed138e207ad6c5cbb9c00aa5aea):
+  app/models/user.rb:17:in `check_password'
+  app/controllers/sessions_controller.rb:10:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (5.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:42:51) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$/jLgVY.TrQnTx6a1CHtMk.YxdFo1EbynUvIKW.r51MnDIF4fzT0By', '2018-07-16 08:45:13', '2018-07-16 08:45:13')[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Destroy (0.2ms)[0m   [0mDELETE FROM "users" WHERE "id" = 2[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 3[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 4[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 5[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 6[0m
+  [4;36;1mUser Destroy (0.1ms)[0m   [0;1mDELETE FROM "users" WHERE "id" = 7[0m
+  [4;35;1mUser Destroy (0.1ms)[0m   [0mDELETE FROM "users" WHERE "id" = 8[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO "users" ("name", "password_hash", "created_at", "updated_at") VALUES('ynon', '$2a$10$4WdA5GWMWq1PL4p/9cvnS.1Tr4DS/4pkfb7k5cecVYKRRWJUvsxx2', '2018-07-16 08:45:50', '2018-07-16 08:45:50')[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:46:01) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:46:02) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:46:03) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 154ms (View: 8, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:46:04) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:46:07) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 169ms (View: 21, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:46:08) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:47:54) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:47:55) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:47:56) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 173ms (View: 5, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:47:57) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:47:59) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 157ms (View: 4, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:48:00) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:48:08) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:48:09) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:48:14) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x00559c986a4b38>):
+  app/controllers/sessions_controller.rb:11:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (4.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:48:15) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:52:30) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `signed_in?' for #<ActionView::Base:0x00559c97e75660>) on line #6 of app/views/layouts/application.html.erb:
+3:   <head><title>Hello Rails</title></head>
+4:   <body>
+5:     <div>
+6:       <% if signed_in? %>
+7:         <p>Welcome <%= current_user.name %></p>
+8:       <% else %>
+9:         <%= link_to 'Sign in', new_session_path %>
+
+    app/views/layouts/application.html.erb:6
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (5.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:52:31) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:52:51) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `signed_in?' for #<ActionView::Base:0x007f567492e948>) on line #6 of app/views/layouts/application.html.erb:
+3:   <head><title>Hello Rails</title></head>
+4:   <body>
+5:     <div>
+6:       <% if signed_in? %>
+7:         <p>Welcome <%= current_user.name %></p>
+8:         <%= link_to 'Sign out', destroy_session_path, method: 'DELETE' %>
+9:       <% else %>
+
+    app/views/layouts/application.html.erb:6
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (9.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:52:52) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:53:27) [GET]
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `signed_in?' for #<ActionView::Base:0x007f56745ab190>) on line #6 of app/views/layouts/application.html.erb:
+3:   <head><title>Hello Rails</title></head>
+4:   <body>
+5:     <div>
+6:       <% if signed_in? %>
+7:         <p>Welcome <%= current_user.name %></p>
+8:         <%= link_to 'Sign out', destroy_session_path, method: 'DELETE' %>
+9:       <% else %>
+
+    app/views/layouts/application.html.erb:6
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (12.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:53:28) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:54:19) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:54:20) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:57:15) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (Couldn't find User without an ID) on line #6 of app/views/layouts/application.html.erb:
+3:   <head><title>Hello Rails</title></head>
+4:   <body>
+5:     <div>
+6:       <% if signed_in? %>
+7:         <p>Welcome <%= current_user.name %></p>
+8:         <%= link_to 'Sign out', destroy_session_path, method: 'DELETE' %>
+9:       <% else %>
+
+    app/controllers/application_controller.rb:19:in `current_user'
+    app/controllers/application_controller.rb:23:in `anonymous?'
+    app/controllers/application_controller.rb:27:in `signed_in?'
+    (eval):2:in `signed_in?'
+    app/views/layouts/application.html.erb:6
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (9.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:57:16) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:58:22) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:58:23) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 11:58:27) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:58:28) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 11:58:31) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/create
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+
+ActionView::TemplateError (undefined local variable or method `destroy_session_path' for #<ActionView::Base:0x00559c986a40c0>) on line #8 of app/views/layouts/application.html.erb:
+5:     <div>
+6:       <% if signed_in? %>
+7:         <p>Welcome <%= current_user.name %></p>
+8:         <%= link_to 'Sign out', destroy_session_path, method: 'DELETE' %>
+9:       <% else %>
+10:         <%= link_to 'Sign in', new_session_path %>
+11:       <% end %>
+
+    app/views/layouts/application.html.erb:8
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (7.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:58:32) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:59:31) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:59:32) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:59:35) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:59:35) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:59:36) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 11:59:36) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 11:59:37) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 12:03:28) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED /home/ynon/perion-live/myapp/app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ynon/perion-live/myapp/app/views/layouts/application.html.erb:16: syntax error, unexpected $end, expecting keyword_end
+Function body: #coding:UTF-8
+          def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html>\n<html>\n  <head><title>Hello Rails</title></head>\n  <body>\n    <div>\n      "
+
+
+
+
+;  if signed_in? ; @output_buffer.concat "\n        <p>Welcome "
+; @output_buffer.concat(( current_user.name ).to_s); @output_buffer.concat "</p>\n        "
+; @output_buffer.concat(( login_logout_link ).to_s); @output_buffer.concat "\n    </div>\n    "
+
+; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n  </body>\n</html>\n"
+
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/renderable.rb:91:in `module_eval'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/renderable.rb:91:in `compile!'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/renderable.rb:61:in `compile'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/renderable.rb:28:in `render'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/template.rb:205:in `render_template'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/base.rb:265:in `render'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/base.rb:352:in `_render_with_layout'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_view/base.rb:262:in `render'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:1252:in `render_for_file'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:936:in `render'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-2.3.18/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-2.3.18/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:1328:in `default_render'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:1334:in `perform_action'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/filters.rb:617:in `call_filters'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-2.3.18/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activesupport-2.3.18/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/flash.rb:151:in `perform_action_with_flash'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:532:in `process'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/filters.rb:606:in `process_with_filters'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:391:in `process'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/base.rb:386:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-2.3.18/lib/active_record/query_cache.rb:29:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-2.3.18/lib/active_record/query_cache.rb:29:in `block in call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-2.3.18/lib/active_record/query_cache.rb:9:in `cache'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-2.3.18/lib/active_record/query_cache.rb:28:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/string_coercion.rb:25:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/params_parser.rb:15:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/session/cookie_store.rb:99:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/failsafe.rb:26:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:114:in `block in call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/reloader.rb:34:in `run'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:108:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rails-2.3.18/lib/rails/rack/static.rb:31:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `block in call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rails-2.3.18/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+/home/ynon/.rvm/gems/ruby-1.9.3-p551/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+/usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+ActionView::TemplateError (/home/ynon/perion-live/myapp/app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ynon/perion-live/myapp/app/views/layouts/application.html.erb:16: syntax error, unexpected $end, expecting keyword_end) on line #14 of app/views/layouts/application.html.erb:
+11:   </body>
+12: </html>
+
+    <internal:prelude>:10:in `synchronize'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:29) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 12:03:48) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2018-07-16 12:03:50) [DELETE]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM="}
+Rendering template within layouts/application
+Rendering sessions/destroy
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:51) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:53) [GET]
+
+ActionController::MethodNotAllowed (Only post and delete requests are allowed.):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (4.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:54) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 12:03:55) [GET]
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:56) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2018-07-16 12:03:58) [DELETE]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM="}
+Rendering template within layouts/application
+Rendering sessions/destroy
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:03:59) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:04:19) [GET]
+
+ActionController::MethodNotAllowed (Only post and delete requests are allowed.):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (27.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:04:20) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 12:04:25) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2018-07-16 12:04:26) [DELETE]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM="}
+Redirected to http://localhost:3000/home
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/session]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 12:04:26) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:04:26) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2018-07-16 12:04:28) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" IS NULL) LIMIT 1[0m
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:04:30) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2018-07-16 12:04:31) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "user"=>{"name"=>"ynon", "password"=>"demo"}, "commit"=>"create"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."name" = 'ynon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/create
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 152ms (View: 2, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:04:32) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2018-07-16 12:14:26) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:14:27) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2018-07-16 12:14:30) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: products: SELECT * FROM "products" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: products: SELECT * FROM "products" ):
+  app/controllers/products_controller.rb:5:in `index'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (10.9ms)
+Rendered rescues/_request_and_response (18.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20180715083233)
+Migrating to CreateProducts (20180716091259)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "user_id" integer, "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20180716091259')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("demo")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2018-07-16 12:15:11) [GET]
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:15:12) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2018-07-16 12:15:14) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:15:15) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2018-07-16 12:15:27) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "product"=>{"name"=>"cute puppy", "user"=>"1", "description"=>"it's a puppy"}, "commit"=>"Create"}
+
+ActiveRecord::AssociationTypeMismatch (User(#47065520860580) expected, got String(#47065510638340)):
+  app/controllers/products_controller.rb:43:in `new'
+  app/controllers/products_controller.rb:43:in `create'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:15:28) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2018-07-16 12:16:00) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:16:01) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2018-07-16 12:16:01) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 41ms (View: 37, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:16:02) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2018-07-16 12:16:09) [POST]
+  Parameters: {"authenticity_token"=>"huAZ8WXQSWZXOob9+cBvvP+5wPAu1Zxr1UrFAsGZ7LM=", "product"=>{"name"=>"cute puppy", "description"=>"it's cute"}, "commit"=>"Create"}
+  [4;36;1mProduct Create (0.2ms)[0m   [0;1mINSERT INTO "products" ("name", "user_id", "description", "created_at", "updated_at") VALUES('cute puppy', NULL, 'it''s cute', '2018-07-16 09:16:09', '2018-07-16 09:16:09')[0m
+Redirected to http://localhost:3000/products/1
+Completed in 18ms (DB: 0) | 302 Found [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2018-07-16 12:16:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 36ms (View: 10, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:16:10) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2018-07-16 12:16:13) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:16:14) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2018-07-16 12:20:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/products/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-07-16 12:20:19) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)

@@ -1,9 +1,14 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :products
+
+  map.resources :products
+
   # The priority is based upon order of creation: first created -> highest priority.
   map.root :controller => 'home', :action => 'index'
   map.homepage 'home', :controller => 'home', :action => 'index'
 
   map.resource :registration, :only => [:new, :create]
+  map.resource :session, :only => [:new, :create, :destroy]
 
 
   # Sample of regular route:

@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   include BCrypt
   validates_presence_of :password_hash
   validates_presence_of :name
+  validates_uniqueness_of :name
 
   def password=(val)
     return if val.blank?
@@ -14,6 +15,6 @@ class User < ActiveRecord::Base
   end
 
   def check_password(val)
-    Password.val(password_hash) == val
+    Password.new(password_hash) == val
   end
 end
